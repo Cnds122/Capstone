@@ -1,0 +1,68 @@
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d
+$ cd DABootcamp/
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp
+$ cd 20.0-Project/
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project
+$ cd repo
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project/repo
+$ git clone https://github.com/Cnds122/Capstone.git
+Cloning into 'Capstone'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project/repo
+$ cd Capstone
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project/repo/Capstone (main)
+$ git checkout -b Mark
+Switched to a new branch 'Mark'
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project/repo/Capstone (Mark)
+$ ls
+README.md
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project/repo/Capstone (Mark)
+$ git status
+On branch Mark
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project/repo/Capstone (Mark)
+$ git add README.md
+warning: CRLF will be replaced by LF in README.md.
+The file will have its original line endings in your working directory
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project/repo/Capstone (Mark)
+$ git status
+On branch Mark
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project/repo/Capstone (Mark)
+$ git commit -m "Modified README.md"
+[Mark 2ec90ab] Modified README.md
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project/repo/Capstone (Mark)
+$ git push --set-upstream origin Mark
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 270 bytes | 270.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Cnds122/Capstone.git
+   b099bc9..2ec90ab  Mark -> Mark
+Branch 'Mark' set up to track remote branch 'Mark' from 'origin'.
+
+mgrasee@DESKTOP-6DN5A6A MINGW64 /d/DABootcamp/20.0-Project/repo/Capstone (Mark)
+$
