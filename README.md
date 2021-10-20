@@ -3,7 +3,7 @@ Link to [Tableau Presentation](https://public.tableau.com/views/Capstone_1634684
 
 Link to [Google Slides Presentation](https://docs.google.com/presentation/d/1JGtlos3QsgHK1uWIRg0ig7TIGyIyH3aJ0EQa1nRvolc/edit?usp=sharing)
 
-Sources:
+Sources: [Powerball Numbers](https://www.kaggle.com/scotth64/powerball-numbers) and [Powerball Sales](https://www.lottoreport.com/powerballsales.htm)
 
 ## OVERVIEW
 
