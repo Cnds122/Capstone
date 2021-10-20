@@ -1,13 +1,52 @@
 # Capstone
-# PowerBall
-We selected the Powerball project as our idea.
 
-The reason we chose this project is because we truly believe that we can predict the outcome of the next big powerball jackpot using the skills we've learned throughout this course. If we can compile information dating the last 4 years, we can see what combinations of numbers have been picked and try to predict the next trend.
+Link to [Tableau Presentation](https://public.tableau.com/views/Capstone_16346848968370/Capstone?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-We grabbed data from the Lotto Report site. This includes powerball sales as well. The reasoning behind including ticket sales is so that we can also predict the jackpot amount.
+Link to [Google Slides Presentation](https://docs.google.com/presentation/d/1JGtlos3QsgHK1uWIRg0ig7TIGyIyH3aJ0EQa1nRvolc/edit?usp=sharing)
 
-With this project we hope to answer when our best chances will be to win the powerball jackpot.
+Sources: [Powerball Numbers](https://www.kaggle.com/scotth64/powerball-numbers) and [Powerball Sales](https://www.lottoreport.com/powerballsales.htm)
 
+## OVERVIEW
+
+Within this project we explore the possibilities of predicting the next powerball number. Utilizing previous numbers we build a machine learning model and compare outputs with a random model. 
+
+## Technologies Used
+
+#### Data Cleaning
+- Pandas utilized for exploratory measures along with initial cleaning
+- Python is used for further analysis
+
+#### Database
+- Postgres SQL will be used to build out the database
+- Database is hosted and connected via AWS
+
+#### Machine Learning
+- Classifiers created using SciKitLearn
+- Random Forest Classifier model used to predict outcome
+- Random model used to compare predictions
+
+#### Dashboard
+- Tableau is used to create dashboard and interactive features
+- Google Slides will host our final presentation
 
 ## Communication Protocol
-Our group will meet at least twice per week via Zoom to discuss the project segment due. We will use Slack to communicate in between meetings and if anyone has any questions for their portion of the project.
+
+Project was worked on as a group during class hours two times a week. Additional zoom meeting towards the end were scheduled to ensure push requests were accurate. Most other communication was hosted via slack as needed.
+
+#### Week 1
+- Mark: Cleaning datasets
+- Carolina: Create repository, initial machine learning aspect
+- Piero: Readme update
+- Shirley: Readme update and dashboard update
+
+#### Week 2
+- Mark: PostgreSQL
+- Carolina: Machine learning prediction updated
+
+#### Week 3
+- Mark: migrating to AWS
+- Carolina: google slides update
+
+#### Week 4
+- Mark: Tableau dashboard and graphics for presentation
+- Carolina: Readme update
