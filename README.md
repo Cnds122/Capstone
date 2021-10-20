@@ -10,17 +10,34 @@ Sources: [Powerball Numbers](https://www.kaggle.com/scotth64/powerball-numbers) 
 ### Technologies Used
 
 #### Data Cleaning
+- Updating data format
+- 
 
 #### Database
+- PostgreSQL
+- hosted via AWS
 
 #### Machine Learning
+
+#### Dashboard
+- tableau
 
 ### Communication Protocol
 
 #### Week 1
+- Mark: Cleaning datasets
+- Carolina: Create repository, initial machine learning aspect
+- Piero: Readme update
+- Shirley: Readme update and dashboard update
 
 #### Week 2
+- Mark: PostgreSQL
+- Carolina: Machine learning prediction update
 
 #### Week 3
+- Mark: migrating to AWS
+- Carolina: google slides update
 
 #### Week 4
+- Mark: Tableau dashboard and graphics for presentation
+- Carolina: Readme update
