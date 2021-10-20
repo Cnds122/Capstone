@@ -7,22 +7,30 @@ Sources: [Powerball Numbers](https://www.kaggle.com/scotth64/powerball-numbers) 
 
 ## OVERVIEW
 
-### Technologies Used
+Within this project we explore the possibilities of predicting the next powerball number. Utilizing previous numbers we build a machine learning model and compare outputs with a random model. 
+
+## Technologies Used
 
 #### Data Cleaning
-- Updating data format
-- 
+- Pandas utilized for exploratory measures along with initial cleaning
+- Python is used for further analysis
 
 #### Database
-- PostgreSQL
-- hosted via AWS
+- Postgres SQL will be used to build out the database
+- Database is hosted and connected via AWS
 
 #### Machine Learning
+- Classifiers created using SciKitLearn
+- Random Forest Classifier model used to predict outcome
+- Random model used to compare predictions
 
 #### Dashboard
-- tableau
+- Tableau is used to create dashboard and interactive features
+- Google Slides will host our final presentation
 
-### Communication Protocol
+## Communication Protocol
+
+Project was worked on as a group during class hours two times a week. Additional zoom meeting towards the end were scheduled to ensure push requests were accurate. Most other communication was hosted via slack as needed.
 
 #### Week 1
 - Mark: Cleaning datasets
@@ -32,7 +40,7 @@ Sources: [Powerball Numbers](https://www.kaggle.com/scotth64/powerball-numbers) 
 
 #### Week 2
 - Mark: PostgreSQL
-- Carolina: Machine learning prediction update
+- Carolina: Machine learning prediction updated
 
 #### Week 3
 - Mark: migrating to AWS
